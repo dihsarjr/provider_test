@@ -13,4 +13,8 @@ class HomeProvider with ChangeNotifier {
     Names('Rashid'),
     Names('Rashid'),
   ];
+  void remove() {
+    name.removeAt(0);
+    notifyListeners();
+  }
 }
