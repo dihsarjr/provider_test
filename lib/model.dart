@@ -1,5 +1,5 @@
 class Names {
-  List<String> name;
+  String name;
 
   Names(this.name);
 }
